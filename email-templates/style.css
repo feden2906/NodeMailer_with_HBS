@@ -1,0 +1,31 @@
+.header-wrapper {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #db9292;
+}
+
+.data-wrapper {
+    width: 100%;
+    min-height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #db9292;
+}
