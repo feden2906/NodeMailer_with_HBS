@@ -1,3 +1,3 @@
 module.exports = {
-  EmailActionEnum: require('./mail-action.enum'),
+  emailActionEnum: require('./email-action.enum'),
 }

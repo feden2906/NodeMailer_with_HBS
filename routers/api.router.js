@@ -1,13 +1,12 @@
-const { sendMail } = require('../services/mail.service');
-const { EmailActionEnum } = require('../enums');
+const { emailService } = require('../services');
+const { emailActionEnum } = require('../enums');
 const router = require('express').Router();
 
 router.route('/sendMail')
     .post(async (req, res) => {
-      await sendMail(req.body.email, EmailActionEnum.WELCOME)
+      const { email, name } = req.body;
+      await emailService.sendMail(email, emailActionEnum.LOGOUT, { name });
       res.sendStatus(204);
     });
-
-
 
 module.exports = router;

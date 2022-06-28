@@ -1,5 +1,0 @@
-module.exports = {
-  WELCOME: 'WELCOME',
-  ACCOUNT_DELETED: 'ACCOUNT_DELETED',
-  ABOUT: 'ABOUT',
-};

@@ -1,4 +1,6 @@
 const express = require('express');
+const path = require('path');
+require('dotenv').config({ path: path.join(process.cwd(), 'environments', `${process.env.MODE}.env`)});
 
 const { config } = require('./constants');
 const { apiRouter } = require('./routers');

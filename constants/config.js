@@ -5,4 +5,6 @@ module.exports = {
 
   ROOT_EMAIL: process.env.ROOT_EMAIL || 'test@gmail.com',
   ROOT_EMAIL_PASSWORD: process.env.ROOT_EMAIL_PASSWORD || 'test_pass',
+
+  FRONTEND_URL: process.env.FRONTEND_URL || 'https://google.com',
 }
